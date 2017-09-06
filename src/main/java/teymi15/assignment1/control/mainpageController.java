@@ -23,7 +23,6 @@ public class mainpageController {
     /**
     * The function tells the initial page to be displayed at route predefined
     * in the configuration application.properties
-    * @param Model - model
     * @return String
     */  
     @RequestMapping("/")
@@ -36,8 +35,6 @@ public class mainpageController {
     * The function tells the same route should be rendered when the user confirm 
     * the input. Furthermore, when getting the input from the user the page should
     * be displaying the information back to the page.
-    * @param String - name 
-    * @param Modelmap - modelMapel
     * @return String
     */
     @RequestMapping(value="/", method = RequestMethod.POST)
