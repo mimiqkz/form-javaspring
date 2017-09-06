@@ -19,7 +19,6 @@ public class Application extends SpringBootServletInitializer{
 	
 	/**
 	* This is the protected funcion which configurate the Spring Application
-	* @param application.
 	*/
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder applicationBuilder){
@@ -27,11 +26,8 @@ public class Application extends SpringBootServletInitializer{
 	}
 	
 	/**
-	* This is the main method which makes use of the Spring Application.
-	* @param args Unused.
-	* @return Nothing.
-	* @exception IOException On input error.
-	* @see IOException
+	* This is the main method which makes use of the Spring Application
+	* @return Nothing
 	*/
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
