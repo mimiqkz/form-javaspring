@@ -17,7 +17,7 @@ public class mainpageController {
         return "mainpage";
     }
     @RequestMapping(value="/", method = RequestMethod.POST)
-    public String who(@RequestParam(value = "name", required = false) String name, ModelMap modelMapel) {
+    public String changeDisplayedName(@RequestParam(value = "name", required = false) String name, ModelMap modelMapel) {
         modelMapel.addAttribute("name", name);
         return "mainpage";
     }
