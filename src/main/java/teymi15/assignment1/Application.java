@@ -27,6 +27,7 @@ public class Application extends SpringBootServletInitializer{
 	
 	/**
 	* This is the main method which makes use of the Spring Application
+	* @param args
 	* @return Nothing
 	*/
 	public static void main(String[] args) {
