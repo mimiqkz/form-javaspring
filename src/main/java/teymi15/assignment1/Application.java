@@ -19,6 +19,7 @@ public class Application extends SpringBootServletInitializer{
 	
 	/**
 	* This is the protected funcion which configurate the Spring Application
+	* @param applicationBuilder
 	*/
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder applicationBuilder){
